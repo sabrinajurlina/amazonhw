@@ -1,0 +1,114 @@
+:root{
+    --light:#ffffff;
+    --accent:#ebad26;
+    --dark:#000000;
+    --borders:rgb(198, 198, 201);
+    --accent2:#00A8E1;
+    font-family: "Geneva", Helvetica, sans-serif;
+    font-weight: 3px;
+}
+    /*can't figure out the amazon font.
+    @font-face{
+    font-family: amazonfont;
+    src: url()
+    
+    don't think I need this...saving in case
+    .maincontainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border: 50px solid var(--dark);
+}*/
+
+.topimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid var(--borders);
+    padding: 30px;
+    margin:10px;
+}
+.loginform{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid var(--borders);
+}
+
+h1{
+    color:#444444;
+    font-weight: lighter;
+    align-self:flex-start;
+}
+
+.email{
+    padding-bottom: 15px;
+}
+
+.password{
+    padding-bottom:15px;
+    padding-top: 50px;
+}
+
+.NeedHelp{
+    align-self:flex-start;
+}
+
+.forgot{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+a{
+    text-decoration:none;
+    color:var(--accent2);
+}
+
+#ContinueButton{
+    background-color:#ebad26;
+    margin-top:29px;
+    height:30px;
+    width:365px;      
+}
+.background{
+    color: grey;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.arrow{
+    color: var(--accent2);
+}
+#CreateYourAccountButton{
+    background-color:rgb(233, 232, 232);
+    margin-top:5px;
+    height:30px;
+    width:428px;
+    color:rgb(92, 92, 92);
+    border-color:rgb(151, 151, 151);
+    border-style:outset;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p{
+    padding:10px;
+    color:var(--accent2);
+}
